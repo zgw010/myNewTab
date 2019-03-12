@@ -1,0 +1,10 @@
+{
+  "name": "Chrome extension name here.",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "Chrome extension description written here.",
+  "chrome_url_overrides": {
+    "newtab": "newTab.html"
+  },
+  "content_security_policy": "script-src 'self'; object-src 'self'"
+}
